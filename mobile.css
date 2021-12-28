@@ -176,6 +176,7 @@ input {
    }
    .blog-main-container .blog-page-bar {
     width: 100%;
+    margin: 0rem auto;
   }
     .main-content-container .blog-bar .card .card-content-bar p {
   line-height: 1rem;
