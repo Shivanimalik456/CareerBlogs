@@ -181,7 +181,17 @@ input {
   line-height: 1rem;
     font-size:0.8rem;
   }
+    
+    .main-content-container .blog-bar .card .card-img-bar span.tag {
+    padding: 0.8rem;
+    gap: 1.6rem;
+    height: 2.5rem;
+    width: 90%;
+    margin-top: -1.5rem;
+    font-size: 0.8rem;
 }
+}
+
 @media screen and (max-width:330px){
 /*---------logo-section-starts---------*/
 
