@@ -117,7 +117,7 @@ grid-area:1/2/3/3;
 
 .subscribe {
   width: 80%;
-  height: 16rem;
+  height: 21rem;
   margin: 1rem auto;
   text-align:center;
 }
@@ -210,7 +210,7 @@ input {
     width: 10rem;
 }
 .subscribe {
-  height: 18rem;
+  height: 21rem;
 }
 
 .main-content-container .blog-bar .card .card-img-bar {
@@ -232,6 +232,7 @@ margin-top: -1rem;
 
 .main-content-container .blog-bar .card .card-content-bar p {
   line-height: 1rem;
+    font-size:0.8rem;
   }
 .main-content-container .blog-bar .card .card-footer .left-footer-card {
     gap: 0.5rem;
