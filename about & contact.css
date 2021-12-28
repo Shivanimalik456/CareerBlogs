@@ -1,0 +1,230 @@
+/*------------------m about-page css ------------------*/
+.about-main-content-section{
+    padding:1rem;
+    text-align: center;
+    margin-top:5rem;
+    margin-bottom: 3rem;
+}
+.about-main-content-section .about-me{
+    border-top:2px solid rgb(207, 207, 207);
+    background-color: white;
+    padding:2rem;
+    margin:0rem auto;
+
+}
+.about-main-content-section .about-me h1{
+background-color: white;
+width:40%;
+margin:-3rem auto;
+font-family: Lato,Arial,sans-serif;
+font-weight:bolder;
+font-size: clamp(1rem, 2vw, 1.5rem);
+}
+.about-main-content-section .author-part{
+margin-bottom: 2rem;
+}
+
+.about-main-content-section .author-part img{
+border-radius:50%;
+width:20rem;
+height:20rem;
+margin-bottom:2rem;
+}
+
+.about-main-content-section .author-part h1{
+    font-size: clamp(1rem, 2vw, 1.7rem);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.08rem;
+}
+
+.about-main-content-section .author-part small{
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-family: Lato,Arial,sans-serif;
+    font-weight:bolder;
+    color:var(--main-color);
+}
+
+
+.about-main-content-section  .div-paragraph{
+    padding: 1rem 4rem;
+    width:80%;
+    margin:auto;
+}
+.about-main-content-section  .div-paragraph p{
+line-height: 2rem;
+margin-bottom: 2rem;
+}
+
+.about-main-content-section  .div-paragraph a{
+   padding:0.8rem 2rem;
+   font-family: var(--ui-font);
+   font-weight: bolder;
+   font-size:1.2rem;
+   background-color: black;
+   color:white;
+   margin:auto;
+   transition: all 0.3s ease-in-out;
+    }
+    .about-main-content-section  .div-paragraph a:hover{
+color:var(--main-color);
+    }
+
+
+    @media screen and (max-width:990px){
+        .about-main-content-section  .div-paragraph{
+            padding: 1rem 2rem;
+            width:100%;
+        }
+
+    }
+
+    @media screen and (max-width:660px){
+    .about-main-content-section .author-part img {
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 1rem;
+    }
+    
+    .about-main-content-section {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .about-main-content-section .author-part {
+        margin-bottom: 0rem;
+    }
+    .about-main-content-section .div-paragraph{
+        padding:0rem;
+    }
+    .about-main-content-section .div-paragraph p {
+        line-height: 1.2rem;
+        margin-bottom: 3rem;
+        font-size: 0.8rem;
+        padding:0rem;
+    }
+    .about-main-content-section .div-paragraph a {
+        font-size: 0.8rem;
+    
+    }
+}
+
+
+
+
+/*---------------contact-form-styling --------------*/
+.form{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    text-align: center;
+    width:80%;
+    margin:2rem auto;
+    justify-content: center;
+    align-items: center;
+}
+.form i{
+    padding:1rem;
+    background-color: white;
+    border-radius:50%;
+    margin:-4rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.form i:hover{
+color:var(--main-color);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.form h1{
+font-size:clamp(1.5rem, 4vw, 3rem);
+margin:2rem 0rem;
+background-color: white;
+margin-bottom:-3rem;
+z-index:2;
+padding:1rem 2rem;
+font-family: 'Oswald', sans-serif;
+}
+.form img{
+width:80%;
+
+}
+input{
+    display:block;
+    padding: 0.5rem;
+    margin:1rem;
+   width:63vw;
+   padding:2rem;
+   padding-left:2rem;
+   background-color: rgb(226, 226, 226);
+   font-size:clamp(0.7rem, 2vw, 1rem);
+}
+textarea{
+    padding: 0.5rem;
+    margin:1rem;
+    padding:2rem;
+   width:63vw;
+   padding-left:2rem;
+   background-color: rgb(226, 226, 226);
+   outline:none;
+   border:none;
+   font-size:clamp(0.7rem, 2vw, 1rem);
+}
+
+input[type="search"] {
+    display: block;
+    padding: 0.5rem;
+    padding-left:2rem;
+  margin: 0rem; 
+   
+}
+
+.form .submit{
+    padding:1rem;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+.form .submit:hover{
+    color:var(--main-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+
+
+    @media screen and (max-width:660px){
+        .form i{
+            margin-bottom: 0rem;
+            font-size: 1.5rem;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        }
+
+
+    }
+
+    @media screen and (max-width:330px){
+    .form h1 {
+        font-size: clamp(0.8rem, 4vw, 3rem);
+        padding: 0.5rem 1rem;
+    }
+    
+    
+    .form {
+        width: 91%;
+    }
+    
+    
+    input {
+        width: 68vw;
+        padding: 1rem;
+    }
+    
+    textarea {
+        width: 68vw;
+        padding: 1rem;
+    }
+    .form i{
+        font-size: 1rem;
+        
+    }
+
+}

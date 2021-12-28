@@ -1,0 +1,126 @@
+@media screen and (max-width:1200px){
+    body{
+        overflow-x:hidden;
+    }
+    .image-banner {
+    grid-template-rows:15rem;
+    height: 20rem;
+    }
+    .image-banner  img{
+        height:15rem;
+        width:17rem;
+    }
+    .main-content-container .blog-bar .card .card-content-bar h1 {
+        font-size: clamp(0.7rem, 2vw, 1rem );
+    }
+    
+    .main-content-container .blog-bar .card .card-content-bar p {
+        font-size: clamp(0.5rem, 2vw, 0.9rem );
+        line-height: 1.3rem;
+       
+    }
+    .main-content-container .blog-bar .card .card-footer .left-footer-card {
+        font-size: 0.8rem;
+    }
+    .main-content-container .blog-bar .card .card-footer {
+        padding: 0.6rem 0rem;
+}
+.main-content-container .blog-bar .card .card-img-bar span.tag {
+    font-size: 0.8rem;
+}
+
+.instagram-part{
+    display:grid;
+    grid-gap:0.5rem;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6rem 6rem 6rem;
+    padding:1rem;
+    margin: auto;
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1fr ;
+ grid-template-rows: 3rem 3rem;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+}
+
+@media screen and (max-width:940px){
+    html{
+        overflow-x:hidden;
+    }
+    .navbar {
+        width: 100vw;
+        margin: 0rem;
+        gap: 1rem;
+        height: 7rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .left-navbar {
+        width: 100%;
+        justify-content: center;
+    }
+    .image-banner {
+        grid-template-rows:10rem;
+            height: 14rem;
+        }
+        .image-banner  img{
+            height:10rem;
+            width:12rem;
+        }
+        
+        .subscribe {
+            width: 86%;
+            height: 8rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            gap: 0.5rem;
+        }
+        
+        .subscribe-bar {
+            padding: 0.4rem;
+            gap: 1rem;
+            width: 100%;
+        }
+        
+        input {
+            width: 10rem;
+            height: 3rem;
+        }
+
+        .main-content-container .sidebar .about-part .about-part-content {
+            margin: 1rem;
+            text-align: center;
+        }
+        
+        .main-content-container .sidebar .about-part .about-part-content a {
+          background-color: transparent;
+            color: inherit; 
+           padding: 0rem 0rem;    
+        }
+        
+        
+        .main-content-container .sidebar {
+             padding: 0rem; 
+        }
+        
+        .main-content-container .sidebar .about-part p {
+            text-align: center;
+            font-size: smaller;
+            padding: 0.8rem 0rem;
+        }
+        .comment-box  textarea{
+            width:70%;
+        }
+        .comment-box  input{
+            width:70%;
+            
+            }
+    }
