@@ -190,6 +190,9 @@ input {
     margin-top: -1.5rem;
     font-size: 0.8rem;
 }
+    left-footer-card h2 {
+    font-size: 0.7rem;
+}
 }
 
 @media screen and (max-width:330px){
